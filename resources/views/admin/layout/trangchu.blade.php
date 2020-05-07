@@ -10,7 +10,7 @@
 <div id="content">
 
  <div id="content-header">
-    <div id="breadcrumb"> <a href="admin/trangchu.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> </a> </div> 
+    <div id="breadcrumb"> <a href="admin/trangchu.html" title="Quay lại trang chủ" class="tip-bottom"><i class="icon-home"></i> </a> </div> 
   </div>
 
 

@@ -24,7 +24,7 @@ class UserController extends Controller
                 'matkhau'=>'required|min:1|max:255|regex:/^[a-zA-Z0-9\s]+$/'
             ],
             [   
-                'tentaikhoan.required'=>'Chưa điền tài khoảng.',
+                'tentaikhoan.required'=>'Chưa điền tài khoản.',
                 'tentaikhoan.min'=>'Sai tài khoản.',
                 'tentaikhoan.max'=>'Sai tài khoản.',
                 'tentaikhoan.email'=>'Không đúng định dạng email.',

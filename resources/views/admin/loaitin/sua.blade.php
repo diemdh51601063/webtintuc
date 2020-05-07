@@ -3,8 +3,8 @@
 @section('content')
 
 <div id="content">
- <div id="content-header">
-    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> </a> </div> 
+<div id="content-header">
+    <div id="breadcrumb"> <a title="" class="tip-bottom"><i class="icon-home"></i> Loại tin</a></div>
   </div>
 <div class="container-fluid">
   <hr>

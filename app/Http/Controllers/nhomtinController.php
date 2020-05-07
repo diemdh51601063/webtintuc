@@ -60,7 +60,7 @@ class nhomtinController extends Controller
         $nhomtin->nhomtinseo = str_slug($request->ten);
         $nhomtin->save();
 
-        return redirect('admin/nhomtin/them.html')->with('thongbao','Thêm thành công');
+        return redirect('admin/nhomtin/them.html')->with('thongbao','Thêm thành công!');
 
     }
 

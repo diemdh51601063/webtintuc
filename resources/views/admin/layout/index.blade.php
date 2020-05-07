@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Matrix Admin</title>
+<title>Tin Tức 2525</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <base href="{{asset('')}}">
@@ -32,14 +32,14 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Matrix Admin</a></h1>
+  <h1><a href="dashboard.html">Tin Tức 2525</a></h1>
 </div>
 <!--close-Header-part--> 
 
 <!--top-Header-menu-->
 <div id="user-nav" class="navbar navbar-inverse">
   <ul class="nav">
-    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
+    <!--<li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
         <li class="divider"></li>
@@ -59,16 +59,16 @@
         <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i> trash</a></li>
       </ul>
     </li>
-    <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
-    <li class=""><a title="" href="admin/logout.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+    <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>-->
+    <li class=""><a title="" href="admin/logout.html"><i class="icon icon-share-alt"></i> <span class="text">Đăng xuất</span></a></li>
   </ul>
 </div>
 
 <!--start-top-serch-->
-<div id="search">
+<!--<div id="search">
   <input type="text" placeholder="Search here..."/>
   <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
-</div>
+</div>-->
 <!--close-top-serch--> 
 
 <!--sidebar-menu-->
@@ -115,7 +115,7 @@
 
 <!--Footer-part-->
 <div class="row-fluid">
-  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+  <div id="footer" class="span12"> 2020 &copy; Tin Tức 2525 <!--Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a>--> </div>
 </div>
 <!--end-Footer-part-->
 <script src="admin_asset/js/jquery.min.js"></script> 

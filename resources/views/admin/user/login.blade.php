@@ -3,7 +3,7 @@
     
 <head>
     <base href="{{asset('')}}">
-        <title>Matrix Admin</title><meta charset="UTF-8" />
+        <title>Tin Tức 2525</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         <link rel="stylesheet" href="admin_asset/css/bootstrap.min.css" />
@@ -16,7 +16,7 @@
         <div id="loginbox">            
             <form id="loginform" class="form-vertical" action="admin/login.html" method="POST">
                    <input type="hidden" name="_token" value="{{csrf_token()}}"/>
-                 <div class="control-group normal_text"> <h3><img src="admin_asset/img/logo.png" alt="Logo" /></h3></div>
+                 <div class="control-group normal_text"> <h2>TIN TỨC 2525<!--<img src="admin_asset/img/logo.png" alt="Logo" />--></h2></div>
                 <div class="control-group">
                     <div class="controls">
                         <div class="main_input_box">
@@ -33,7 +33,7 @@
                 </div>
                
                     
-                    <span class="pull-right"><button type="submit"  class="btn btn-success" /> Login</button></span>
+                    <span class="pull-right"><button type="submit"  class="btn btn-success" /> Đăng nhập</button></span>
                 
             </form>
             <form id="recoverform" action="#" class="form-vertical">

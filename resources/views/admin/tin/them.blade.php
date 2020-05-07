@@ -7,7 +7,7 @@
 <div id="content">
 
 <div id="content-header">
-    <div id="breadcrumb"> <a title="" class="tip-bottom"><i class="icon-home"></i> Nhóm tin</a></div>
+    <div id="breadcrumb"> <a title="" class="tip-bottom"><i class="icon-home"></i> Tin Tức</a></div>
   </div>
 <div class="container-fluid" >
   <hr>

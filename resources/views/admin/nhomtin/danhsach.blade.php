@@ -4,8 +4,8 @@
 @section('content')
 
 <div id="content">
-  <div id="content-header">
-    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> </a> </div> 
+<div id="content-header">
+    <div id="breadcrumb"> <a href="admin/trangchu.html" title="Quay lại trang chủ" class="tip-bottom"><i class="icon-home"></i> </a> </div> 
   </div>
 
 
@@ -31,7 +31,7 @@
                   <th>ID nhóm tin</th>
                   <th>Tên nhóm tin</th>
                   <th>Trạng thái</th>
-                  <th  >Thao tác</th>
+                  <th>Thao tác</th>
                 
 
                 </tr>
