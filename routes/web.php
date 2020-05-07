@@ -80,3 +80,10 @@ Route::get('trangchu.html','UserController@gettrangchu');
    return redirect()->route('login');
 });
 });
+
+
+  Route::get('/','frontController@getfront');
+  Route::get('index.html','frontController@getfront');
+   Route::get('{search}.html','frontController@getfront');
+   
+ Route::get('/','frontController@getfront');
