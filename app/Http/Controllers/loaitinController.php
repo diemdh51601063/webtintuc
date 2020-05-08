@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\loaitin;
 use App\nhomtin;
+use Illuminate\Support\Str;
+
 class loaitinController extends Controller
 {
   public function getdanhsach(){
@@ -36,7 +38,7 @@ class loaitinController extends Controller
   	
         $loaitin=new  loaitin;
         $loaitin->id=$request->id;
-         $loaitin->loaitinseo=str_slug($request->ten);
+         $loaitin->loaitinseo=Str::slug($request->ten,'-');
         $loaitin->tenloaitin=$request->ten;
 
         $loaitin->id_nhomtin=$request->nhomtin;
@@ -83,7 +85,7 @@ class loaitinController extends Controller
      
         $loaitin->tenloaitin=$request->ten;
         $loaitin->trangthai=$request->radios;
-            $loaitin->loaitinseo=str_slug($request->ten);
+            $loaitin->loaitinseo=Str::slug($request->ten ,'-');
         $loaitin->save();
          return redirect('admin/loaitin/sua-'.$id_loaitin.'.html')->with('thongbao','Sửa thành công.');
 

@@ -82,8 +82,13 @@ Route::get('trangchu.html','UserController@gettrangchu');
 });
 
 
-  Route::get('/','frontController@getfront');
+  Route::get('/','frontController@getfront')->name('index');
   Route::get('index.html','frontController@getfront');
-   Route::get('{search}.html','frontController@getfront');
+
+  Route::get('{seo}-post{search}.html','frontController@getdetail');
+  Route::get('{search}-tim-kiem.html','frontController@getsearch');
+  Route::get('{search}.html','frontController@getcategory');
    
- Route::get('/','frontController@getfront');
+  Route::fallback(function () {
+   return redirect()->route('index');
+});

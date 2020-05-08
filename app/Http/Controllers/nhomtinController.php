@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\nhomtin;
-
+use Illuminate\Support\Str;
 
 class nhomtinController extends Controller
 {
@@ -57,7 +57,7 @@ class nhomtinController extends Controller
  
         $nhomtin=new  nhomtin;
         $nhomtin->tennhomtin=$request->ten;
-        $nhomtin->nhomtinseo = str_slug($request->ten);
+        $nhomtin->nhomtinseo = Str::slug($request->ten,'-');
         $nhomtin->save();
 
         return redirect('admin/nhomtin/them.html')->with('thongbao','Thêm thành công!');
@@ -95,7 +95,7 @@ class nhomtinController extends Controller
 
        
         $nhomtin->tennhomtin=$request->ten;
-        $nhomtin->nhomtinseo = str_slug($request->ten);
+        $nhomtin->nhomtinseo = Str::slug($request->ten);
         $nhomtin->trangthai=$request->radios;
       
        $nhomtin->save();

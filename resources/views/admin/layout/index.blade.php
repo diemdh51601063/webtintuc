@@ -123,7 +123,7 @@
 <script src="admin_asset/js/bootstrap.min.js"></script> 
 <script src="admin_asset/js/maruti.js"></script>
 <script src="admin_asset/js/matrix.js"></script> 
-
+<script src="admin_asset/js/ckeditor/ckeditor.js"></script>
 
 
 @yield('script')

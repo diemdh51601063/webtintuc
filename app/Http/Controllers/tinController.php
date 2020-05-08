@@ -27,7 +27,7 @@ class tinController extends Controller
     		'loaitin'=>'required',
     		'tacgia'=>'required|min:1|max:255|regex:/[a-zA-Z]+/',
     		'mota'=>'required|regex:/[a-zA-Z]+/',
-    		'tinhot'=>'required',
+    		
     		'noidung'=>'required|regex:/[a-zA-Z0-9]+/',
             'file'=>'required',
     	],[
@@ -52,11 +52,11 @@ class tinController extends Controller
 
     	$tin=new tin;
     	$tin->tieude=$request->tieude;
-        $tin->tieudeseo=str_slug($request->tieude);
+        $tin->tieudeseo=Str::slug($request->tieude,'-');
     	$tin->id_loaitin=$request->loaitin;
     	$tin->tacgia=$request->tacgia;
     	$tin->mota=$request->mota;
-    	$tin->tinhot=$request->tinhot;
+    
     	$tin->noidung=$request->noidung;
     	if($request->hasFile('file'))
     	{
@@ -161,7 +161,7 @@ public function postsua(Request $request,$id_tin){
         ]);
 
         $tin->tieude=$request->tieude;
-        $tin->tieudeseo=str_slug($request->tieude);
+        $tin->tieudeseo=Str::slug($request->tieude,'-');
         $tin->id_loaitin=$request->loaitin;
         $tin->tacgia=$request->tacgia;
         $tin->mota=$request->mota;
