@@ -121,6 +121,9 @@
             </div>
            
               <label class="control-label">Nội dung:</label>
+            
+
+
             <!-- <div class="controls">
 
               <textarea name="noidung" class="textarea_editor span10" rows="12" placeholder="Enter text ...">Nội dung
@@ -130,8 +133,8 @@
             <div class="controls">
 
              <textarea  class="ckeditor" name="noidung" cols="50" rows="10">
-       
-           <p>Hello <strong>CKEditor</strong></p>
+       {{$tin->noidung}}
+          
            
        </textarea>
             </div>

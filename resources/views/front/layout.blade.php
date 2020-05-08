@@ -92,20 +92,48 @@
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-md-block">
                                     <nav>                  
-                                        <ul id="navigation">    
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="categori.html">Category</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="latest_news.html">Latest News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="#">Pages</a>
+                                        <ul id="navigation">  
+                                           <li><a href="index.html">Trang Chủ</a></li>
+                                             <li><a href="xa-hoi.html">Xã Hội</a>
                                                 <ul class="submenu">
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Blog Details</a></li>
-                                                    <li><a href="details.html">Categori Details</a></li>
+                                                    <li><a href="chinh-tri.html">Chính trị</a></li>
+                                                    <li><a href="giao-duc.html">Giáo dục</a></li>
+                                                    <li><a href="giao-thong.html">Giao thông</a></li>
+                                                    
                                                 </ul>
                                             </li>
+                                             <li><a href="the-gioi.html">Thế Giới</a>
+                                                <ul class="submenu">
+                                                    <li><a href="tu-lieu.html">Tư liệu</a></li>
+                                                    <li><a href="phan-tich.html">Phân tích</a></li>
+                                                    <li><a href="chuyen-la.html">Chuyện lạ</a></li>
+                                                    
+                                                </ul>
+                                            </li>
+                                             <li><a href="kinh-doanh.html">Kinh Doanh</a>
+                                                <ul class="submenu">
+                                                    <li><a href="bat-dong-san.html">Bất động sản</a></li>
+                                                    <li><a href="hang-khong.html">Hàng không</a></li>
+                                                    <li><a href="tai-chinh.html">Tài chính</a></li>
+                                                    
+                                                </ul>
+                                            </li>
+                                             <li><a href="thoi-trang.html">Thời Trang</a>
+                                                <ul class="submenu">
+                                                    <li><a href="mac-dep.html">Mặc đẹp</a></li>
+                                                    <li><a href="lam-dep.html">Làm đẹp</a></li>
+                                                    <li><a href="trang-suc.html">Trang sức</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li><a href="doi-song.html">Đời Sống</a>
+                                                <ul class="submenu">
+                                                    <li><a href="du-lich.html">Du lịch</a></li>
+                                                    <li><a href="am-thuc.html">Ẩm thực</a></li>
+                                                    <li><a href="su-kien.html">Sự kiện</a></li>
+                                                </ul>
+                                            </li>
+                                            
                                         </ul>
                                     </nav>
                                 </div>

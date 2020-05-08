@@ -4,7 +4,7 @@
 
 @section('content')
 
- <!--   Weekly2-News start -->
+  <!--   Weekly2-News start -->
     <div class="weekly2-news-area  weekly2-pading gray-bg">
         <div class="container">
             <div class="weekly2-wrapper">
