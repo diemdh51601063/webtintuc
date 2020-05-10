@@ -19,23 +19,24 @@ class frontController extends Controller
     }
     public function getcategory($search)
     {
+        
+               
+        $datant=DB::table('nhomtin')->where('nhomtinseo','=',$search)->get();
+      echo $datant=nhomtin::find($datant[0]->id);
+      
+      
+      echo $da=DB::table('loaitin')->where('id',1)->get();
+        //$datatin=$datant->tin();
 
-        $data=DB::table('nhomtin')
-        ->where('nhomtinseo', '=', $search)->get();
 
+
+   //    echo $datant[0]->id;
+
+
+
+  //     echo     $datatnt=$datant::tin();
      
-            if(count($data)==0)
-              { 
-
-              $data=DB::table('loaitin')
-        ->where('loaitinseo', '=', $search)->get();
-              echo "loatin";
-            
-                }
-                else
-            echo "nhomtin";
-           
-    	return view('front/category');
+    	//return view('front/category',['datant'=>$datant]);
 
     }
     public function getdetail($seo,$search)
@@ -50,10 +51,6 @@ class frontController extends Controller
     }
     public function getsearch($search)
     {
-
     	return view('front/search');
-
-
-
     }
 }

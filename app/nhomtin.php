@@ -18,6 +18,6 @@ class nhomtin extends Model
 
      public function tin()
     {
-        return $this->hasManyThrough('App\tin','App\loaitin','id_nhomtin','id_loaitin');
+        return $this->hasManyThrough('App\tin','App\loaitin','id_nhomtin','id_loaitin','id','id');
     }
 }
